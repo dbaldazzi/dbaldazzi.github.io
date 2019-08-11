@@ -1,0 +1,149 @@
+ /* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+
+.container-fluid { 
+  justify-content: flex-start; 
+}
+.home {
+  min-height: 20vh;
+  background-color: black;
+  text-align: center; 
+}
+
+.top-info {
+  text-align: center; 
+  color: white; 
+}
+.img-fluid {
+  max-height: 20vh !important; 
+  max-width: -webkit-fill-available;
+}
+.intro {
+  background-image: url("caspar-camille-rubin-0qvBNep1Y04-unsplash.jpg"); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-color: blue;
+  min-height: 80vh;
+  opacity: .75;
+}
+
+.welcome {
+  text-align: center; 
+  align-content: center;  
+  color: #16c6af; 
+  padding-left: 0vw;   
+  text-shadow: #818181;
+  text-shadow: 30px; 
+  font-family: Brush Script MT, Brush Script Std, cursive; 
+}
+
+.title {
+  font-size: 10vh; 
+}
+.about {
+  background-image: url("night sky.jpg");
+  min-height: 100vh;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  opacity: .75;
+  text-align: center; 
+  color: white; 
+}
+
+.about-me {
+  font-size: large;
+  margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.resume {
+  background-image: url("resume.jpg");
+  min-height: 100vh; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  opacity: .75;
+}
+
+.projects {
+  height: 100vh;
+  background-image: url("cloud-4165397_1920.jpg");
+  background-position: bottom; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .75;
+  text-align: center;  
+}
+
+.recent-projects {
+  justify-content: space-around; 
+}
+
+.project-cards {
+  width: 100vw;  
+}
+
+.resume {
+  max-height: 100vh;
+  background-color: green;
+  background-position: bottom;
+  background-size: contain;  
+}
+
+.contact {
+  min-height: 70vh;
+  background-color: orange;
+}
+
+.footer {
+  background-color: black; 
+  height: 30vh; 
+}
+
+.contact-me {
+  text-align: center;
+  align-content: center;  
+  font-size: -webkit-xxx-large;
+    color: black;
+}
+
+.icons {
+  text-align: center; 
+  align-self: flex-end; 
+}
+
