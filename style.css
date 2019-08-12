@@ -100,9 +100,6 @@
   opacity: .75;
 }
 
-.cards {
-   
-}
 .card1 {
   justify-content: center;
   
@@ -118,7 +115,8 @@
 }
 
 .recent-projects {
-  justify-content: space-around; 
+  justify-content: space-around;
+  align-content: center;  
 }
 
 .project-cards {
@@ -126,8 +124,9 @@
 }
 
 .card-body {
-  background-image: url("ilya-pavlov-OqtafYT5kTw-unsplash\(1\).jpg");
-background-size: contain;
+background-image: url("ilya-pavlov-OqtafYT5kTw-unsplash\(1\).jpg");
+background-size: cover;
+background-repeat: no-repeat;
 }
 .resume {
   max-height: 100vh;
@@ -138,7 +137,8 @@ background-size: contain;
 
 .contact {
   min-height: 70vh;
-  background-color: orange;
+  background-image: url("deskandcomputer.jpg");
+background-size: contain; 
 }
 
 .footer {
@@ -150,7 +150,7 @@ background-size: contain;
   text-align: center;
   align-content: center;  
   font-size: -webkit-xxx-large;
-    color: black;
+    color: white;
 }
 
 .icons {
@@ -158,3 +158,6 @@ background-size: contain;
   align-self: flex-end; 
 }
 
+.language-icon {
+  align-self: center; 
+}
