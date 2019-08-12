@@ -100,6 +100,13 @@
   opacity: .75;
 }
 
+.cards {
+   
+}
+.card1 {
+  justify-content: center;
+  
+}
 .projects {
   height: 100vh;
   background-image: url("cloud-4165397_1920.jpg");
@@ -118,6 +125,10 @@
   width: 100vw;  
 }
 
+.card-body {
+  background-image: url("ilya-pavlov-OqtafYT5kTw-unsplash\(1\).jpg");
+background-size: contain;
+}
 .resume {
   max-height: 100vh;
   background-color: green;
