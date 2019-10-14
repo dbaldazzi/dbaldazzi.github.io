@@ -97,7 +97,7 @@
   min-height: 100vh; 
   background-size: cover; 
   background-repeat: no-repeat; 
-  opacity: .75;
+  /* opacity: .75; */
  
 }
 
@@ -139,6 +139,7 @@ background-repeat: no-repeat;
   background-color: green;
   background-position: bottom;
   background-size: contain;  
+
 }
 
 .contact {
@@ -177,4 +178,5 @@ a {
   margin-left: 10vw; 
   margin-right: 10vw; 
   margin-bottom: 5vh; 
+  color: white; 
 }
